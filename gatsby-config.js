@@ -8,7 +8,7 @@ module.exports = {
       resolve: 'gatsby-plugin-web-font-loader',
       options:{
         google: {
-          families: ['Oleo Script', 'M PLUS Rounded 1c']
+          families: ['Oleo Script', 'M PLUS Rounded 1c', 'M PLUS 1p']
         }
       }
     }
