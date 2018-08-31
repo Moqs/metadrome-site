@@ -6,7 +6,8 @@ const IndexPage = () => (
   <div>
     <div style={{display:"flex",
           //alignItems:"center",
-          justifyContent:"left"
+          justifyContent:"center",
+          flexWrap: "wrap",
     }}>
       <figure className="image" style={{marginBottom:"0"}}>
         <img src={logo} alt="Metadrome" style={{ width: '5rem', marginTop:"0rem", marginBottom:"0", marginLeft:"0", marginRight:"2rem"}} />
