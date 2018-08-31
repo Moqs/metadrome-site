@@ -1,12 +1,12 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import Media from 'react-media'
-import logo from '../img/logo.svg'
+import logo from '../img/logo_dark.svg'
 
 const Header = ({ siteTitle }) => (
   <div
     style={{
-      backgroundColor: '#D8E9F0',
+      backgroundColor: '#f2bb05',
       marginBottom: '3rem',
     }}
   >
@@ -21,11 +21,11 @@ const Header = ({ siteTitle }) => (
       }}
     >
         <Link to="/">
-          <figure className="image">
-            <img src={logo} style={{ width: '3rem', marginTop:"1.5rem", marginBottom:"0", marginLeft:"0", marginRight:"0.5rem", flexGrow:"0"}} />
+          <figure className="image" style={{marginBottom:"0"}}>
+            <img src={logo} alt="Metadrome" style={{ width: '2rem', marginTop:"0.35rem", marginBottom:"0", marginLeft:"0", marginRight:"4rem", flexGrow:"5"}} />
           </figure>
         </Link>
-      <h1 style={{ margin: "0", fontSize:"2.5rem",fontFamily: ['Oleo Script', 'Segoe UI', 'sans-serif'], flexGrow:"5" }}>
+      {/* <h1 style={{ margin: "0", fontSize:"2.5rem",fontFamily: ['Oleo Script', 'Segoe UI', 'sans-serif'], flexGrow:"5" }}>
         <Link
           to="/"
           style={{
@@ -35,12 +35,25 @@ const Header = ({ siteTitle }) => (
         >
           {siteTitle}
         </Link>
-      </h1>
-      <h3 style={{ fontSize:"1.2rem", margin:"0", flexGrow:"0"}}>
+      </h1> */}
+      <h3 style={{ fontSize:"1.0rem", margin:"0", marginRight:"2rem", flexGrow:"0"}}>
+        <Link
+          to="/article/"
+          style={{
+            color: "#124e78",
+            textDecoration:"none"
+          }}
+        >
+        Article
+        </Link>
+      </h3>
+
+      <h3 style={{ fontSize:"1.0rem", margin:"0", flexGrow:"0"}}>
         <Link
           to="/about/"
           style={{
-            color: "#F33535"
+            color: "#124e78",
+            textDecoration:"none"
           }}
         >
         About

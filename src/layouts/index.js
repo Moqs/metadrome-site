@@ -7,6 +7,7 @@ import './index.css'
 
 import "../styles/layout-overide.css";
 
+
 const Layout = ({ children, data }) => (
   <div>
     <Helmet
