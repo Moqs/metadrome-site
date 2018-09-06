@@ -15,6 +15,7 @@ const Header = ({ siteTitle }) => (
         display:"flex",
         alignItems:"center",
         justifyContent:"left",
+        flexWrap:"wrap",
         margin: '0 auto',
         maxWidth: 1280,
         padding: '0rem 1.0875rem',
