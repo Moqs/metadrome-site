@@ -17,7 +17,7 @@ module.exports = {
         resolve: 'gatsby-plugin-web-font-loader',
         options:{
           google: {
-            families: ['Oleo Script', 'Noto Sans JP']
+            families: ['Oleo Script', "Montserrat", 'Noto Sans JP']
           }
         }
       }
