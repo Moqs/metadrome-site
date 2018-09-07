@@ -12,6 +12,8 @@ const AboutPage = () => (
       <h1>About Me</h1>
       <h2>もくさい（もく）・めたどろ</h2>
       <p>アニメや映画を観て音楽を聴きつつときどき海外ゲームをやりながら家のなかで生きています。<br/>口癖は「家から一歩も出たくない」。</p>
+    </div>
+    <div className="block block3">
       <h4>好きなもの</h4>
       <dl>
         <dt>映画</dt>
@@ -24,9 +26,10 @@ const AboutPage = () => (
       </dl>
     </div>
     <div className="block block4">
+      <h1>Contact</h1>
       <p>Email: moku@metadro.me</p>
-    </div>
         <Link to="/">Go back to the homepage</Link>
+    </div>
   </div>
 )
 

@@ -19,11 +19,11 @@ p, div {
 }
 
 .block {
-    height: 100vh;
     position: -webkit-sticky;
     position: sticky;
     top:0;
     background: #D8E9F0;
+    min-height: 100vh;
     padding-top: 3rem;
 }
 .block1 {
