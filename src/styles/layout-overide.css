@@ -11,3 +11,30 @@ h1, h2, h3, h4, h5, strong, b {
 p, div {
     font-size: 16px;
 }
+
+.header {
+    /* position: sticky;
+    top:0; */
+    z-index: 100;
+}
+
+.block {
+    height: 100vh;
+    position: -webkit-sticky;
+    position: sticky;
+    top:0;
+    background: #D8E9F0;
+    padding-top: 3rem;
+}
+.block1 {
+    z-index: 1;
+}
+.block2 {
+    z-index: 2;
+}
+.block3 {
+    z-index: 3;
+}
+.block4 {
+    z-index: 4;
+}

@@ -4,7 +4,7 @@ import Media from 'react-media'
 import logo from '../img/logo_dark.svg'
 
 const Header = ({ siteTitle }) => (
-  <div
+  <div className="header"
     style={{
       backgroundColor: '#f2bb05',
       marginBottom: '3rem',
@@ -23,7 +23,7 @@ const Header = ({ siteTitle }) => (
     >
         <Link to="/">
           <figure className="image" style={{marginBottom:"0"}}>
-            <img src={logo} alt="Metadrome" style={{ width: '2rem', marginTop:"0.35rem", marginBottom:"0", marginLeft:"0", marginRight:"4rem", flexGrow:"5"}} />
+            <img src={logo} alt="Metadrome" style={{ width: '1.8rem', marginTop:"0.35rem", marginBottom:"0", marginLeft:"0", marginRight:"4rem", flexGrow:"5"}} />
           </figure>
         </Link>
       {/* <h1 style={{ margin: "0", fontSize:"2.5rem",fontFamily: ['Oleo Script', 'Segoe UI', 'sans-serif'], flexGrow:"5" }}>
@@ -37,19 +37,8 @@ const Header = ({ siteTitle }) => (
           {siteTitle}
         </Link>
       </h1> */}
-      <h3 style={{ fontSize:"1.0rem", margin:"0", marginRight:"2rem", flexGrow:"0"}}>
-        <Link
-          to="/article/"
-          style={{
-            color: "#124e78",
-            textDecoration:"none"
-          }}
-        >
-        Article
-        </Link>
-      </h3>
 
-      <h3 style={{ fontSize:"1.0rem", margin:"0", flexGrow:"0"}}>
+      <h3 style={{ fontSize:"1.0rem", fontWeight:"400", margin:"0", marginRight:"2rem", flexGrow:"0"}}>
         <Link
           to="/about/"
           style={{
@@ -58,6 +47,17 @@ const Header = ({ siteTitle }) => (
           }}
         >
         About
+        </Link>
+      </h3>
+      <h3 style={{ fontSize:"1.0rem", fontWeight:"400",margin:"0", marginRight:"2rem", flexGrow:"0"}}>
+        <Link
+          to="/article/"
+          style={{
+            color: "#124e78",
+            textDecoration:"none"
+          }}
+        >
+        Article
         </Link>
       </h3>
     </div>

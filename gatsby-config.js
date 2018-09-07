@@ -17,7 +17,7 @@ module.exports = {
         resolve: 'gatsby-plugin-web-font-loader',
         options:{
           google: {
-            families: ['Oleo Script', 'Sawarabi Gothic']
+            families: ['Oleo Script', 'Noto Sans JP']
           }
         }
       }
